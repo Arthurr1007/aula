@@ -1,0 +1,32 @@
+
+h3 {
+    font-style: italic;
+    text-align: center;
+    
+}
+
+
+.nome {
+    margin: 5px;
+}
+
+.sobrenome {
+    margin: 5px;
+}
+
+
+form {
+    margin: 0 auto;
+    width:200px;
+    border: 5px solid black;
+    background-color: brown;
+    letter-spacing: 1px;
+}
+
+
+#button {
+    color: greenyellow;
+    padding: 10px;
+    text-align: center;
+
+}

@@ -1,0 +1,57 @@
+
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
+
+.backg {
+    background-color: brown;
+    height: 10;
+    border: 7px solid black;
+    margin: 0 auto;
+    width: 220px;
+    
+}
+
+#botao {
+    width: 40px;
+    height: 45px;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 85px;
+
+}
+
+
+#num1 {
+    border: 1px solid;
+    margin: 10px;
+    margin-left: 25px;
+    padding: 2px;
+}
+
+#num2 {
+    border: 1px solid;
+    margin: 10px;
+    margin-left: 25px;
+    padding: 2px;
+}
+
+
+
+.botao:hover {
+    background-color: greenyellow;
+}
+
+#result {
+
+    border: 4px solid green;
+    margin: 10px;
+    margin-left: 25px;
+
+}
+
