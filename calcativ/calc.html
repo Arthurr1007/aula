@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
 </head>
 <body>
 
@@ -16,13 +17,13 @@
 
 
 <div>
-<input type="number" id="num1"> 
-<input type="number" id="num2">
+<input type="text" id="num1" value=''> 
+<input type="text" id="num2" value=''>
 </div>
 
-<button onclick="inserir('+')" id="botao">+</button>
+<button onclick="inserir()" id="botao">+</button>
 
-<input type="number" id="result">
+<input id="result" type="text" value=''>
 
 
 
@@ -31,6 +32,5 @@
 </div>
 
 <script src="calc.js"></script>
-<link rel="stylesheet" href="calc.css">
 </body>
 </html>

@@ -10,11 +10,9 @@ h2 {
 
 .backg {
     background-color: brown;
-    height: 10;
     border: 7px solid black;
     margin: 0 auto;
     width: 220px;
-    
 }
 
 #botao {
