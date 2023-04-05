@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="frm.css">
 </head>
 
 <body>
@@ -19,26 +19,25 @@
     
     <h3>Formulario</h3>
 
-    <div class="nome">
-    <label for="nome">Nome:</label>
-    <input type="text">
+    <div>
+    <label>Nome:</label>
+    <input type="text" id="nome">
     </div>
 
-    <div class="sobrenome">
-        <label for="Sobrenome">Sobrenome:</label>
-        <input type="text">
+    <div >
+        <label>Sobrenome:</label>
+        <input type="text" id="sobrenome">
     </div>
 
-    <div id="button">
-        <button  type="submit">Enviar
-
-        </button>
+    <div >
+        <button id="botao" onclick="escreverNomeCompleto()">Enviar</button>
     </div>
 
 </form>
 
-    <script src="frm.js"></script>
+    
     <link rel="stylesheet" href="frm.css">
+    <script src="frm.js"></script>
 </body>
 
 </html>
